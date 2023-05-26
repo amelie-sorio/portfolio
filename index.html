@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      // Fonction pour définir la couleur de fond en fonction de la page
+      function setBackgroundColor() {
+        if (window.location.pathname === '/') {
+          document.body.style.backgroundColor = '#9DC4FF';
+        } else if (window.location.pathname === '/photographie') {
+          document.body.style.backgroundColor = '#FFF7F6';
+        }
+      }
+
+      // Appeler la fonction pour définir la couleur de fond initiale
+      setBackgroundColor();
+
+      // Écouter l'événement popstate pour détecter les changements d'URL
+      window.addEventListener('popstate', function() {
+        setBackgroundColor();
+      });
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
+<style>
+</style>

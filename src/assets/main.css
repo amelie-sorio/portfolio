@@ -1,0 +1,220 @@
+@import './base.css';
+
+body {
+  background-color: #9DC4FF;
+  padding: 4vh;
+  color: black;
+  /* height: 100vh;
+  width: 100vw; */
+}
+
+#app {
+  /* max-width: 1280px; */
+  padding: 2rem;
+
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 85vw;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.self-picture {
+  width: 300px;
+  /* height: 250px; */
+  background-color: white;
+  margin-right: 4vw;
+}
+
+.me .list {
+  margin: 30px 15px;
+  font-size: 12pt;
+}
+
+main .name {
+  margin: 25px 0;
+  font-weight: 700;
+  color: black;
+  font-size: 20pt;
+}
+
+.study {
+  font-weight: 500;
+  font-size: 14pt;
+}
+
+.header-first {
+  display: flex;
+}
+
+.personnality {
+  min-height: 40vh;
+  height: 50vh;
+  width: 500px;
+}
+
+.introduction {
+  padding-right: 100px;
+  margin-top: 5vh;
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+
+.menu {
+  /* width: 1000px; */
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu .element {
+  left: 0;
+  right: 0;
+  opacity: 1;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* height: fit-content; */
+  width: 200px;
+  /* background-color: #D9B8FF; */
+}
+
+.pink {
+  background-color: #D9B8FF;
+}
+
+.pink:hover{
+  cursor: pointer;
+  display: inline-block;
+  color: transparent;
+  background: url('../assets/img/baudelaire.png');
+  background-size: cover;
+}
+
+.pink2 {
+  background-color: #FFBDF2;
+}
+
+.pink2:hover{
+  cursor: pointer;
+  display: inline-block;
+  color: transparent;
+  background: url('../assets/img/photo.png');
+  background-size: cover;
+}
+
+.grey {
+  background-color: #AFBCCF;
+}
+
+.grey:hover{
+  cursor: pointer;
+  display: inline-block;
+  color: transparent;
+  background: url('../assets/img/bequignol.png');
+  background-size: cover;
+}
+
+.green {
+  background-color: #85E0A3;
+}
+
+.green:hover{
+  cursor: pointer;
+  display: inline-block;
+  color: transparent;
+  background: url('../assets/img/fanzine.png');
+  background-size: cover;
+}
+
+.blue {
+  background-color: #75D7F0;
+}
+
+.blue:hover{
+  cursor: pointer;
+  display: inline-block;
+  color: transparent;
+  background: url('../assets/img/christus.png');
+  background-size: cover;
+}
+
+/* .menu :nth-child(3n){
+  background-color: #85E0A3;
+}
+
+.menu :nth-child(3n + 1){
+  background-color: #AFBCCF;
+} */
+
+ .title {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.menu .element li {
+  margin-left: 10px;
+}
+
+.element {
+  padding: 10px;
+}
+
+li {
+  background-color: transparent !important;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dot {
+  display: block;
+  width: 125px;
+  height: 125px;
+  background: #FFC7C2;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin: 0 5vw;
+}
+
+.spiral{
+  max-height: 100%;
+   max-width: 100%;
+   margin-top: 7px;
+   margin-left: -7px;
+}
+
+.header-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photographie{
+  /* min-height: 40vh; */
+  height: 500px;
+  width: 400px;
+  margin-right: 5vw;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
